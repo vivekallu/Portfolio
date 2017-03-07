@@ -1,0 +1,78 @@
+
+<div >
+    <div>
+        <div id="addAgencyBlockId" style="border:none;border-top: 2px solid #eaeaea;" class="col-md-12 ">
+            <div id="addAgencyBlockIdDisplayFlex" class="displayFlex mTop15 mBottom15">
+                <div class="widthOfAddressBookText">
+                    <span id="addressBookTextId" class="headerLabelsForAddressBook width100 displayFlex">
+                      <h4 style="cursor: pointer;">
+                                   ADDRESS BOOK
+                          <span class="greyText"> {% if isEdit  %}> EDIT AGENCY NAME{% endif %}</span>
+
+                      </h4>
+                      <h4>
+                          <span id="addAgencyNameId" class=" greyText"> > {{agencyData.name|upper}}</span>
+                          <span id="contactType" class=" greyText">{% if agencyContactObj %}> EDIT {{agencyContactObj.agencyContactType}}{% endif %}</span>
+                      </h4>
+                    </span>
+                </div>
+
+            <div class="widthOfAddDirectAdv "><span class="{% if disableAddAgency %}addNewAgencyDisabledButtonMarginRight{% else %}addNewAgencyButtonMarginRight{% endif %}"> <input id="addDirectAgencyButton" class="{% if disableAddAgency %}disabledButton{% else %}button{% endif %}" type="submit"  value="ADD DIRECT ADVERTISER" {% if disableAddAgency %}disabled{% endif %}></span>
+            </div>
+    
+
+            <div class="widthOfAddAddressBookButton"><span class="{% if disableAddAgency %}addNewAgencyDisabledButtonMarginRight{% else %}addNewAgencyButtonMarginRight{% endif %}"><input id="addNewAgencyButton" class="{% if disableAddAgency %}disabledButton{% else %}button{% endif %}" type="submit"  value="ADD NEW AGENCY" {% if disableAddAgency %}disabled{% endif %}></span>
+            </div>
+            
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block pagescripts %}
+<script type="text/javascript">
+$('#addNewAgencyButton').click(function(){
+    $('.addAgency').text("> AGENCY DETAILS");
+
+});
+
+$('#addDirectAgencyButton').on('click',function(){
+        console.log("clicked directagency block");
+        var postURL = 'addDirectAgencyAjax';
+        $.ajax({
+            type: "POST",
+            url: postURL,
+            success: function(result){
+                console.log(result);
+                $('#rightPane').html(result);
+            }
+            });
+   
+});
+</script>
+
+{% endblock pagescripts %}
+
+
+
+
+
+
+
+<!--<div class="addAgencyBlock">
+        <span class="addressBookHeaderlabel"><p>ADDRESS BOOK</p></span>
+            <!-- <div class='innerClass'>
+                      <span><p class="subLabel">BILLING CONTACT</p></span>
+                        <span><p class="subLabel">PLANNER</p></span>
+                        <span><p class="subLabel">ADVERTISER</p></span>
+            </div> -->
+
+            <!--<td align="right"><span ><input class="button" onclick="location.href='/addressBook';" type="submit"  value="ADD NEW AGENCY">-->
+
+        <!--<div class="addNewAgencyButtonBlock">
+            <span ><input id="addNewAgencyButton1" class="{% if disableAddAgency %}disabledButton{% else %}button{% endif %}" type="submit"  value="ADD NEW AGENCY" {% if disableAddAgency %}disabled{% endif %}>
+            </span>
+        </div>
+
+    </div>-->

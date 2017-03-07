@@ -1,0 +1,51 @@
+.vbar{
+	position:absolute;
+	width: 200px;
+	top: 132px;
+	
+}
+
+.vbar ul{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	
+}
+
+.vbar ul li a{
+	display:block;
+	width:125px;
+	height: 25px;
+	line-height:25px;
+	background-color: #FFF;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	color:#2E6DA4;
+	text-decoration:none;
+	
+}
+
+.vbar ul li a:hover{
+	background-color:#5BC0DE;
+	border-bottom:1px dashed #666666;
+}
+
+.vbar ul li ul{
+	display:none;
+}
+
+.vbar ul li:hover ul{
+	display:block;
+	
+}
+
+.darrow{
+	font-size:12px;
+	position:absolute;
+	top: 15px;
+	right:80px;
+}
+
+	
+

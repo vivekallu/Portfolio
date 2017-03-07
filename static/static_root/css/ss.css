@@ -1,0 +1,1661 @@
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('{% static 'fonts/SourceSansPro-Regular.otf' %}');
+    src: local('{% static 'fonts/SourceSansPro-Regular.otf' %}');
+  }
+
+body{
+	background: #eaeaea;
+	font-size: 14px;
+ }
+
+.your-class::-webkit-input-placeholder {
+    color: #b2cde0;
+}
+
+label {
+    font-weight:normal;
+}
+/*
+select {
+
+    height: 40px;
+    width: 350px;
+
+}
+*/
+
+.help-block {
+  color: #b94a48;
+}
+#searchForm {
+
+  padding: 25px;
+
+}
+
+.agencyFormCF input[type=text] {
+    height: 40px;
+    width: 30%;
+
+}
+#nameAndClientForm input[type=text]{
+    height: 40px;
+
+}
+.agencyFormC2 input[type=text]
+{
+    height: 40px;
+    width: 80%;
+}
+.agencyFormC1FN,.agencyFormC1SN{
+    width:30%;
+}
+.agencyFormPNCC{
+    width:15%;
+    margin-right:4px;
+}
+.agencyFormPNLC{
+    width:10%;
+    margin-right:4px;
+}
+.agencyFormPNSC{
+    width:50%;
+}
+.agencyFormC1FN{
+    margin-right:4px;
+}
+
+.agencyFormCFCOne input[type=text],.agencyFormC1 input[type=text], .agencyFormC3 input[type=text], .agencyFormC4 input[type=text]{
+    height: 40px;
+    width: 100%;
+
+}
+
+#searchForm input[type=text] {
+    height: 40px;
+    width: 100%;
+
+}
+
+.nucleusLogo {
+    float: left;
+    width: 100%;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float:Right;
+}
+
+.searchBox {
+   background: #fff;
+   height: 87px;
+   width: 100%;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.insertionOrderText{
+   height: 87px;
+   width: 50%;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.profileImage {
+   float:right;
+}
+
+#rightPane {
+   float: right;
+   width:83%;
+   margin-top: 5px;
+   margin-right: 5px;
+}
+
+.addAgencyBlock{
+   background: #fff;
+   height: 90px;
+   width: 100%;
+   margin-top: 3px;
+   padding-top: 1px;
+   border-bottom: 3px solid #1bbc9b;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+
+}
+
+.addAgencyBlockC1,.addAgencyBlockC2{
+    width:49%;
+    height:100%;
+    padding-top:1%;
+    border-right: 1px solid #eaeaea;
+}
+
+.addAgencyBlockC2{
+    border-left:3px solid black;
+}
+
+.addEditAgencyFormBlock, .addEditAgencyContactFormBlock {
+   background: #fff;
+   height: 100%;
+   display: inline-block;
+   width: 100%;
+   border-bottom: 3px solid #1bbc9b;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.agencyDetailsTitleBar, .agencyContactDetailsTitleBar{
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    color: #a5a5a5;
+    height: 50px;
+    margin-top: 7px;
+    padding: 15px;
+    width: 100%;
+}
+
+.agencyContactDetailsTitleBar {
+    height: 70px;
+    padding:0;
+
+}
+
+.agencyContactDetailsTitleText {
+    float: left;
+    padding-top: 18px;
+    color: #1bbc9b;
+    padding-left: 10px;
+
+}
+
+.agencyContactType {
+    float: left;
+    margin: 10px;
+}
+
+
+.agencyFormSubmitButton{
+    /*padding: 15px;
+    float: right;*/
+    padding-left:82%;
+}
+.agencyFormDeleteButton{
+
+    /*padding: 15px;
+    float: right;*/
+    padding-left:86%;
+}
+
+
+/*.agencyFormC2, .agencyFormC3{
+    border-right: 1px solid #eaeaea;
+    float: left;
+    height: 100%;
+    padding: 15px;
+    width: 50%;
+}*/
+/*.agencyFormC4{
+    float: left;
+    height: 100%;
+    padding: 15px;
+    width: 50%;
+}*/
+
+.agencyFormC1{
+    margin-right:3px;
+    float: left;
+    height: 100%;
+    padding: 15px;
+    width: 50%;
+}
+
+.agencyFormNameBlockWithFirstAndLastName {
+    display:flex;
+    padding-left: 10px;
+
+}
+
+.labelForEmail{
+    color: #1bbc9b;
+    font-size: 14px;;
+}
+
+.agencyFormC2{
+    padding-left:10px;
+}
+
+.agencyContactNamePaddingleft, .agencyContactPhoneNumberPaddingleft{
+    padding-left:10px;
+}
+
+.agencyFormC3 {
+    border:none;
+    padding-left: 10px;
+}
+
+.agencyFormCF {
+    padding: 15px;
+}
+.agencyFormCFCOne{
+    display:flex;
+    margin-top: 4px;
+    width: 55%;
+}
+.addressNumber{
+    width:12%;
+    margin-right: 4px;
+}
+.addressStreet{
+    width:60%;
+
+}
+.addressCity{
+    width:30%;
+    margin-right: 4px;
+}
+.addressCountry{
+    width:42%;
+}
+
+.formRow {
+   background: #fff;
+   height: 100%;
+   display:inline-block;
+   width: 100%;
+   margin-top: 3px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.formRowR2{
+   background: #fff;
+   height: 100%;
+   display:inline-block;
+   width: 100%;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.formRowR1{
+   background: #fff;
+   height: 100%;
+   display:inline-block;
+   width: 100%;
+}
+
+.agencyDetailsBlock{
+    background: none repeat scroll 0 0 #fff;
+    display: flex;
+    height: 61px;
+    margin-top: 2px;
+    padding-top: 1px;
+    width: 100%;
+}
+
+.agencyDetailsLeft{
+   padding: 15px;
+   height:  100%;
+   width: 90%;
+   float:left;
+}
+
+.agencyDetailsTextLeft{
+   float: left;
+    height: 93%;
+    padding: 19px 17px 17px 16px;
+    width: 30%;
+}
+
+.agencyDetailsRight{
+   width: 8%;
+   height:  100%;
+   float:right;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.agencyDetailsIconRight{
+   width: 17%;
+   height:  100%;
+   float:right;
+}
+
+.agencyContactNameIcon {
+   float:left;
+   margin-right: 10px;
+   padding-top: 10px;
+}
+
+.agencyIcons{
+    width:99%;
+    display: flex;
+    height:100%;
+}
+
+ .editAgencyIcon {
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    padding-right: 15px;
+    padding-top: 14px;
+    width: 35%;
+}
+.addAgencyIcon{
+    border-left: 1px solid #eaeaea;
+    padding-right: 17px;
+    padding-top: 14px;
+    width: 36%;
+}
+
+.lightGrayFontColor {
+    color: #bfbfbf;
+}
+
+.darkGrayFontColor {
+    color: #363636;
+}
+
+.agencyContactDetailsBlock {
+   display: inline-block;
+   width: 100%;
+   margin-top: 1px;
+   border-bottom: 3px solid #1bbc9b;
+}
+
+.dummy {
+  border-bottom: 3px solid #1bbc9b;
+}
+
+.agencyContactItemDetailsBlock {
+    background: none repeat scroll 0 0 #fff;
+    display: inline-block;
+    margin-bottom: -4px;
+    width: 100%;
+
+}
+
+.agencyContactItemDetailsLeft {
+   width: 94%;
+   float:left;
+}
+
+.agencyContactItemDetailsRight {
+   width: 4%;
+   float:right;
+
+}
+.agencyContactEmail, .agencyContactPhone, .agencyContactAddress {
+    width: 34%;
+    border-right: 1px solid #eaeaea;
+    padding: 15px;
+}
+.agencyContactIndustry{
+    width: 68%;
+    border-right: 1px solid #eaeaea;
+    padding: 15px;
+}
+.editAgencyBlock{
+    float: left;
+    padding: 19px 27px;
+    width: 100%;
+}
+
+.agencyContactName {
+    width: 32%;
+    border-right: 1px solid #eaeaea;
+    padding: 15px;
+}
+
+ .secondOuterClass{
+    width:79%;
+
+   }
+
+ .innerClass {
+
+    border: 1px black;
+ 	font-size:10px;
+ 	fontColor:#f5f5f5;
+ 	background: transparent;
+
+ 	 }
+
+
+
+
+
+
+
+.innerClass tr td {
+	border-right: 2px  #fff;
+	border-left: 2px  #e8e8e8;
+	border-top: 2px #fff;
+	border-bottom: 2px #e8e8e8;
+	padding: 5px 5px;
+	position: relative;
+
+
+}
+
+.addNewAgencyButtonBlock {
+    float:right;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.addNewListItemButtonBlock {
+    float:right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.lineIemTextBlock{
+    height:50px;
+}
+
+.addressBookHeaderlabel{
+	color: #1bbc9b;
+	font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+
+.subLabel {
+    color: #bfbfbf;
+}
+
+
+.button, .disabledButton{
+	background: #f46a4d;
+	border: 1px black;
+	padding: 10px;
+	font-size: 14px;
+	color:#F8F8F8;
+}
+
+.delButton{
+
+	border: 1px solid #f46a4d;
+	padding: 10px;
+	font-size: 14px;
+	color:#f46a4d;
+}
+
+.addNewListButton{
+
+    background: #1bbc9b;
+	border: 1px black;
+	padding: 10px;
+	font-size: 14px;
+	color:#F8F8F8;
+}
+.displayItemsBlockInLineItems{
+    color: #cbcbcb;
+    height: 87px;
+    padding-top: 32px;
+    text-align: center;
+}
+.displaylineItemsBlock{
+    margin-top:1px;
+}
+
+.lineItemsTextBlock{
+    margin-top:2px;
+}
+.saveAndNextButton{
+    background: #eaeaea;
+	border: 1px black;
+	padding: 10px;
+	font-size: 14px;
+	color:#bebebe;
+
+}
+.saveAndNextButtonInlineItemsBlock{
+    margin-top:1px;
+}
+
+.disabledButton {
+    background: #eaeaea;
+
+}
+
+.headerLabels{
+    color: #1bbc9b;
+    font-size: 14px;
+
+}
+
+.headerLabelsForAddressBook{
+    color: #1bbc9b;
+
+}
+
+.controlOverflow{
+    word-wrap: break-word;
+}
+
+.insertionOrderTitleBlock{
+    margin-top:1px;
+}
+
+.insertionOrderTitleText{
+    height: 40px;
+    padding-top: 12px;
+}
+.firstLink{
+    padding-top: 38px;
+    text-align: center;
+}
+
+.secondLink, .thirdLink, .fourthLink{
+    padding-left: 77px;
+    position: relative;
+}
+
+.firstLinkText{
+    padding-left: 26%;
+    padding-top: 14px;
+}
+
+.secondLinkText{
+    padding-left: 7%;
+    position: relative;
+}
+
+.thirdLinkText{
+    padding-left: 10%;
+    position: relative;
+}
+
+.fourthLinkText{
+    padding-left:11%;
+    position: relative;
+}
+
+.options{
+    height:104px;
+}
+.dropDownList{
+    width:100%;
+}
+
+.createLineItemsTextBlock{
+    padding: 9px;
+}
+
+.createItemsOptions{
+    height:77px;
+}
+.createItemsOptionsSecondRow{
+    height:69px;
+}
+
+.createItemProductName{
+    padding-left:9px;
+    position:relative;
+}
+.createItemProductNameDD{
+    padding-left:7px;
+    position:relative;
+}
+
+.createItemProductDetails{
+    padding-left: 43%;
+    position:relative;
+}
+
+.createItemProductDetailsDD{
+    padding-left: 20%;
+    position:relative;
+}
+.startDateInCreateLI,.metricValueInCreateLI,.successMetricInMetrics{
+    padding-left:9px;
+    position:relative;
+}
+
+.pixelsInMetrics{
+    padding-left:36%;
+    position:relative;
+}
+.endDateInCreateLI{
+    padding-left:193px;
+    position:relative;
+}
+.budgetInCreateLI{
+    padding-left:178px;
+    position:relative;
+}
+.purchaseMetricInCreateLI{
+    padding-left:217px;
+    position:relative;
+}
+.brandSafetyInCreateLI{
+    padding-left:227px;
+    position:relative;
+
+}
+.startDateInCreateLIDP,.metricValueInCreateLITB,.successMetricInMetricsDD{
+    padding-left:7px;
+    position:relative;
+}
+
+.pixelsInMetricsDD{
+    padding-left:14%;
+    position:relative;
+}
+.budgetInCreateLITB{
+    padding-left:10%;
+    position:relative;
+}
+.deliveryPacingInMetricsDD{
+    padding-left:1%;
+    position:relative;
+}
+
+.metricGoalInMetricsTB{
+    padding-left:148px;
+    position:relative;
+}
+
+.endDateInCreateLIDP{
+    padding-left:96px;
+    position:relative;
+}
+.purchaseMetricInCreateLIDD,.brandSafetyInCreateLIDD{
+    padding-left:10%;
+    position:relative;
+}
+
+.creativeUnitsInMetricsDD{
+    padding-left:14%;
+    position:relative;
+}
+.auditAdServerInMetricsDD{
+    padding-left:1%;
+    position:relative;
+}
+
+.backButtonInIO{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c2c2c2;
+    color: #c2c2c2;
+    font-size: 14px;
+    margin-left: 76%;
+    margin-right: 20px;
+    padding: 9px 9px 9px 35px;
+    width: 11%;
+}
+.createItemButtonInIO{
+    background: #f46a4d;
+	border: 1px black;
+	padding: 10px;
+	font-size: 14px;
+	color:#F8F8F8;
+	float:right;
+	width:11%;
+}
+/*.createLIBlock{
+    margin-top:3px;
+}*/
+/*metrics.html*/
+
+.metricGoalInMetrics{
+    padding-left:36%;
+    position:relative;
+}
+.auditAdServerInMetrics{
+    padding-left:1%;
+    position:relative;
+
+}
+.deliveryPacingInMetrics{
+    padding-left:1%;
+    position:relative;
+}
+.creativeUnitsInMetrics{
+    padding-left:36%;
+    position:relative;
+}
+.widthOfDDInMetrics{
+    width:178px;
+}
+.marginTop{
+    margin-top:3px;
+}
+.widthForEditImage{
+    width:50%;
+}
+.textOne{
+    padding-top: 2px;
+
+}
+.textTwo{
+    padding-left: 28%;
+
+}
+.textThree{
+    padding-left:3%;
+}
+
+.displayConfirmIo{
+    display:flex;
+}
+.metricsTextOneInConfirmIoPage{
+    width:14%;
+
+}
+.metricsTextTwoInConfirmIoPage{
+    width:12%;
+
+}
+.metricsTextThreeInConfirmIoPage{
+    width:15%;
+
+}
+.metricsTextFourInConfirmIoPage{
+    width:15%;
+
+}
+.metricsTextFiveInConfirmIoPage{
+    width:14%;
+
+}
+.metricsTextSixInConfirmIoPage{
+    width:14%;
+
+}
+.metricsTextSixInConfirmIoPage{
+    width:20%;
+
+}
+
+.textOneA{
+
+    width:300px;
+
+}
+.textTwoB{
+    width: 284px;
+}
+.textThreeC{
+    width: 300px;
+}
+
+.textOneBlack{
+     width:300px;
+    color:black;
+}
+
+.textTwoBlack{
+    width: 284px;
+    color:black;
+}
+.textThreeBlack{
+    width: 300px;
+    color:black;
+}
+
+.grayColor{
+    color:#b8b8b8;
+}
+
+.confirmIO{
+    height:20%;
+}
+.colorGray{
+    color:#eaeaea;
+}
+.colorBlack{
+    color:black;
+}
+#widthOfSaveBtn{
+   height: 3em;
+   width: 10em;
+}
+.widthOfDelBtn{
+   height: 3em;
+   width: 10em;
+}
+.heightOfRow{
+    height:41px;
+}
+.miniRow{
+    background-color: #10BCFF;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    font-size: 1.5em;
+    height:2px;
+}
+.imagePosition{
+    padding-right: 1px;
+    padding-top: 9px;
+}
+.imagePositionForEditInRecentIo{
+    padding:20px 12px;
+
+}
+.textOneText{
+    padding-left:3%;
+}
+.editIconAlign{
+    padding: 4px 34px 5px 15px;
+}
+.editIconAlignForLineItems{
+    margin-right: 8px;
+    padding: 4px;
+}
+.editIconAlignForMetrics{
+    margin-right: 9px;
+    padding: 3px;
+}
+.allignCenter{
+    text-align: center;
+}
+.textOneBlackInMetrics{
+    padding-left:6%;
+}
+.textTwoBlackInMetrics{
+    padding-left:10%;
+}
+.textThreeBlackInMetrics{
+    padding-left:12%;
+}
+.textFourBlackInMetrics{
+    padding-left:16%;
+}
+.widthOfDropDown{
+    width:20%;
+}
+.pageUnderConstruction{
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    height: 343px;
+    margin-top: 4px;
+    padding-left: 40%;
+    padding-top: 12%;
+    width: 100%;
+}
+.options .row [class*="col-"]{
+border:none;
+}
+button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+label, input, button, select, textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    display: inline-block;
+    height: 40px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    test-color:black;
+}
+select, input[type="file"] {
+    height: 40px;
+    *margin-top: 4px;
+    line-height: 30px;
+}
+select {
+    width: 220px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+select[multiple], select[size] {
+    height: auto;
+}
+select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+
+
+.rightContainer{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 2px solid #eaeaea;
+}
+.rightPaneForAddresbook{
+    width: 1072px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 17px;
+}
+.createInsertionOrderButtonBlockOne{
+    height:5px;
+}
+.floatRightForCreateLineItemsSaveAndNext{
+    margin-left:90%;
+}
+
+.floatRightForCreateLineItems{
+    margin-left:79%;
+}
+
+.rightFloat{
+    margin-left: 88%;
+    margin-top: 1%;
+}
+
+.displayFlex{
+    display:flex;
+}
+.productNameWidth{
+    width:50%;
+}
+.productDetailsWidth{
+    width:50%;
+}
+.startDateWidth{
+    width:30%;
+}
+
+.endDateWidth{
+    width:30%;
+}
+
+.purchaseMetricWidth{
+    width:30%;
+}
+.metricValueWidth{
+    width:30%;
+}
+.budgetWidth{
+    width:30%;
+}
+.brandSafetyWidth{
+    width:30%;
+}
+.createLineItemButtonMarginLeft{
+    margin-left:79%;
+}
+.saveAndNextInLineItemsFloatRight{
+    margin-left:90%;
+}
+.widthOfSuccessMetric{
+    width:30%;
+}
+.widthOfMetricGoal{
+    width:30%;
+}
+.widthOfAuditAdServer{
+    width:30%;
+}
+.widthOfPixels{
+    width:30%;
+}
+.widthOfDeliveryPacing{
+    width:30%;
+}
+.widthOfCreativeUnits{
+    width:30%;
+}
+.saveAndNextMetric{
+    margin-left:90%;
+}
+.editIoItemsFirstRowWidthOne{
+    padding: 13px;
+    width: 35%;
+}
+.editIoItemsFirstRowWidthTwo{
+    padding: 13px;
+    width: 18%;
+}
+.editIoItemsFirstRowWidthThree{
+    width:30%;
+    padding: 13px;
+}
+.insertionOrderHeadingPadding{
+    padding:2px;
+}
+.paddingLeftInRecentIo{
+    padding-left:17px;
+}
+.streetNameWidthInAddressBook{
+    width: 32%;
+}
+.streetIdentifierWidthInAddressBook{
+    margin-left: 12px;
+    width: 20%;
+}
+.saveAgencyButton{
+    margin-left:4%;
+}
+.buildingNameInAddressBookLeftMargin{
+    margin-left: 11px;
+}
+.widthOfUnitNumber{
+    width:20%;
+    margin-bottom: 10px;
+}
+.countryWidthInAddressBook{
+    width:21%;
+}
+.cityWidthInAddressBook{
+   margin-left: 8px;
+   width: 21%;
+}
+.postCodeWidthInAddressBook{
+    margin-left: 8px;
+    width: 20%;
+}
+.marginLeftOfDelBtnInEditAgency{
+    margin-left:2%;
+}
+.nogrid > div {
+  border:none;
+}
+
+.widthOfNumberOnePrefix{
+    width:26%
+}
+
+.widthOfNumberOne{
+    width:14%;
+}
+.widthOfNumberTwo, .widthOfNumberThree, .widthOfNumberFour{
+    width:12%;
+}
+
+.widthOfNumberOneSuffix{
+    width:26%
+}
+
+.alignCenter{
+    padding-left:39%;
+}
+.alignTextNameAndClient{
+    margin-left:34px;
+    margin-top: 11px;
+}
+.alignTextLineItems{
+    margin-left:42px;
+    margin-top: 11px;
+}
+.alignTextMetric{
+    margin-left:53px;
+    margin-top: 11px;
+}
+.alignTextConfirm{
+    margin-left: 50px;
+    margin-top: 11px;
+}
+.confirmAndGeneratePdfBtn{
+    margin-left:79%;
+}
+.addNewAgencyButtonMarginRight{
+    margin-left:71%;
+}
+.addNewAgencyDisabledButtonMarginRight{
+    margin-left:72%;
+}
+.createInsertionOrderButtonBlock{
+    margin-left:8%;
+}
+.createLIBlockOne{
+    margin-top:2px;
+}
+.createMetricsBlockInCreateMetrics{
+    margin-top:2px;
+}
+.nameAndClientInConfirmIo{
+    margin-top:-2px;
+}
+.displayConfirmIo{
+    margin-top:-4px;
+}
+.nogrid {
+    border:none;
+}
+.myspan{
+  padding-right:3px;
+}
+
+.paddingBottom{
+  padding-bottom:10px;
+}
+.paddingTop{
+  padding-top:20px;
+}
+@media (max-width: 1400px) {
+  .alignTextNameAndClient{
+    margin-left:34px;
+    margin-top: 11px;
+}
+.alignTextLineItems{
+    margin-left:42px;
+    margin-top: 11px;
+}
+.alignTextMetric{
+    margin-left:53px;
+    margin-top: 11px;
+}
+.alignTextConfirm{
+    margin-left: 50px;
+    margin-top: 11px;
+}
+}
+@media (min-width:1400px) {
+  .alignTextNameAndClient{
+    margin-left:54px;
+    margin-top: 11px;
+}
+.alignTextLineItems{
+    margin-left:62px;
+    margin-top: 11px;
+}
+.alignTextMetric{
+    margin-left:73px;
+    margin-top: 11px;
+}
+.alignTextConfirm{
+    margin-left: 70px;
+    margin-top: 11px;
+}
+}
+.greyText{
+  color:#c2c2c2;
+}
+.empty{
+    color:grey;
+}
+.widthPhoneNumberCC{
+    width:14%;
+}
+.widthPhoneNumberLC{
+    width:11%;
+}
+.widthPhoneNumberSC{
+    width:50%;
+}
+.widthOfAddressBookText{
+    width:70%;
+
+}
+.widthOfAddAddressBookButton{
+    width:22%;
+}
+.addAgency{
+    padding:9px;
+}
+.widthOfStartDate{
+    width:30%;
+}
+.widthOfLongArrowRight{
+    color: #b8b8b8;
+    padding-top: 20px;
+    width: 45%;
+    padding-left: 8px;
+}
+.widthOfEndDate{
+    width:15%;
+}
+
+.widthOfStartDateInRIO{
+    padding-top: 1px;
+    width: 30%;
+}
+.widthOfLongArrowRightInRIO{
+    color: #b8b8b8;
+    width: 45%;
+}
+
+.widthOfEndDateInRIO{
+    padding-top: 1px;
+    width: 15%;
+}
+
+@media (max-width: 1400px) {
+    .alignRightArrowForDashBoard{
+        margin-left:40px;
+}
+    .alignRightArrowForSell{
+        margin-left:100px;
+}
+    .alignRightArrowForInstruct{
+        margin-left:63px;
+}
+    .alignRightArrowForTraffic{
+        margin-left:75px;
+}
+    .alignRightArrowForAnalyse{
+        margin-left:68px;
+}
+    .alignRightArrowForAdministration{
+        margin-left:9px;
+}
+
+}
+@media (min-width:1400px) {
+    .alignRightArrowForDashBoard{
+        margin-left:145px;
+    }
+    .alignRightArrowForSell{
+        margin-left:205px;
+    }
+    .alignRightArrowForInstruct{
+        margin-left:168px;
+    }
+    .alignRightArrowForTraffic{
+        margin-left:180px;
+    }
+    .alignRightArrowForAnalyse{
+        margin-left:173px;
+    }
+    .alignRightArrowForAdministration{
+        margin-left:114px;
+    }
+}
+
+.widthOfAttachImgInIoAttach{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 25%;
+}
+.widthOfEditImgInIoAttach{
+    border-right: 1px solid #eaeaea;
+    background-color:#ffffff;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 25%;
+}
+
+.widthOfVersionNumberInIoSetActive{
+    border-right: 1px solid #eaeaea;
+    background-color:#ffffff;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 35%;
+}
+.widthOfNewVersionImgInIoAttach{
+    border-right: 1px solid #eaeaea;
+    background-color:#ffffff;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 25%;
+}
+
+.widthOfAllVersionsImgInIoAttach{
+    background-color:#ffffff;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 25%;
+}
+
+@media (max-width: 1400px){
+    .attachTextInIoAttach{
+        padding-left:40%;
+        padding-top: 27px;
+        font-size:12px;
+        text-align: center;
+    }
+
+    .editTextInIoAttach{
+        padding-left:48%;
+        padding-top: 27px;
+        font-size:12px;
+        text-align: center;
+    }
+
+    .newVersionTextInIoAttach{
+        padding-left:20%;
+        padding-top: 27px;
+        font-size:12px;
+        text-align: center;
+    }
+
+    .allVersionsTextInIoAttach{
+        padding-left:22%;
+        font-size:12px;
+        text-align: center;
+        padding-top: 27px;
+    }
+}
+
+@media (min-width: 1400px){
+    .attachTextInIoAttach{
+        padding-left:63%;
+        font-size:12px;
+        padding-top: 27px;
+        text-align: center;
+    }
+
+    .editTextInIoAttach{
+        padding-left:70%;
+        font-size:12px;
+        padding-top: 27px;
+        text-align: center;
+    }
+
+    .newVersionTextInIoAttach{
+        font-size: 12px;
+        padding-left: 47%;
+        padding-top: 27px;
+        text-align: center;
+    }
+
+    .allVersionsTextInIoAttach{
+        font-size: 12px;
+        padding-left: 47%;
+        padding-top: 27px;
+    }
+}
+
+.IoTextInIoAttach{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-left: 1px;
+    margin-top: 0.6px;
+    padding-left: 3%;
+    padding-right: 9%;
+    padding-top: 8px;
+    width: 59%;
+    margin-bottom: 2px;
+}
+
+.IoTextInIoSetActivePage{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-left: 1px;
+    margin-top: 0.6px;
+    padding-left: 3%;
+    padding-right: 9%;
+    padding-top: 8px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+.noDocAttachedYetText{
+    padding-top:2px;
+}
+
+.ioUploadPageUploadSection{
+    background-color: #fff;
+    border: 1px solid rgba(86, 61, 124, 0.2);
+    padding-left: 2%;
+    width: 33.3333%;
+    border:none;
+
+}
+.alignButtonInUploadIoPage{
+    margin-left: 33%;
+    margin-top: 14px;
+    padding: 4% 31px 4% 32px;
+}
+.textBoxInIoUploadPage{
+    margin-top:9px;
+}
+.textBoxDescriptionInIoUploadPage{
+    margin-top:12px;
+}
+.widthOfCONumberInIoDownloadFile{
+    padding-top:10px;
+    width:16%;
+
+
+}
+.textOfCONumberInIoDownloadFile{
+    color:#c2c2c2;
+    font-size:10px;
+}
+.textOfLastUpdateItemInIoDownloadFile{
+    color:#c2c2c2;
+    font-size:10px;
+}
+.widthOfCONumberInIoDownloadFileNextRow{
+    padding-top:5px;
+
+}
+.widthOfLastUpdateItemInIoDownloadFile{
+    width:30%;
+    padding-top:10px;
+
+
+}
+.widthOfLastUpdateItemInIoDownloadFileNextRow{
+    padding-top:5px;
+}
+@media (max-width: 1400px){
+    .downloadFileInIoDownloadFile{
+        padding-top:23px;
+        padding-left:19px;
+    }
+    .downloadImageInIoDownloadFile{
+        padding-bottom: 23px;
+        padding-right: 55px;
+        padding-top: 17px;
+    }
+}
+
+@media (min-width: 1400px){
+    .downloadFileInIoDownloadFile{
+        padding-top:23px;
+        padding-left:65px;
+    }
+    .downloadImageInIoDownloadFile{
+        padding-bottom: 23px;
+        padding-right: 96px;
+        padding-top: 17px;
+    }
+}
+@media (max-width: 1400px){
+    .versionTextInIoSetActivePage{
+        padding-left:29px;
+        padding-top:11px;
+        color:#c2c2c2;
+    }
+    .versionNumberInIoSetActivePage{
+        padding-left:51px;
+        padding-top:3px;
+        font-size: 17px;
+    }
+    .widthOfSetActiveButtonInIoSetActive{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-left: 31px;
+    padding-right: 9%;
+    padding-top: 29px;
+    width: 65%;
+}
+.ioAllVersionsSerialNumber{
+    font-size: 18px;
+    padding-bottom: 34px;
+    padding-left: 24px;
+    padding-top: 41px;
+    width: 6%;
+}
+.widthOfIoAllVersionsSerialNumberAndNeighbouringField{
+    width:27.34%;
+    height:102px;
+}
+}
+@media (min-width: 1400px){
+    .versionTextInIoSetActivePage{
+        padding-left:55px;
+        padding-top:11px;
+        color:#c2c2c2;
+    }
+    .versionNumberInIoSetActivePage{
+        padding-left:73px;
+        padding-top:3px;
+        font-size: 17px;
+    }
+    .widthOfSetActiveButtonInIoSetActive{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-left: 84px;
+    padding-right: 9%;
+    padding-top: 29px;
+    width: 65%;
+}
+    .ioAllVersionsSerialNumber{
+        font-size: 18px;
+        padding-bottom: 34px;
+        padding-left: 41px;
+        padding-top: 41px;
+        width: 6%;
+    }
+    .widthOfIoAllVersionsSerialNumberAndNeighbouringField{
+        width:27.34%;
+        height:102px;
+    }
+}
+.buyerContactDateField{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #eaeaea;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    padding-bottom: 23px;
+    border-left:1px solid #eaeaea;
+}
+
+.dateFieldInBuyerContact{
+    padding-top:7px;
+}
+.widthOfCONumberInIoAttachSignedIoPage{
+    padding-top: 10px;
+    width: 24%;
+}
+.textOfCONumberInIoAttachSignedIoPage{
+
+    font-size: 15px;
+}
+.textOfLastUpdateItemInIoAttachSignedIoPage{
+
+    font-size: 15px;
+}
+.attachSignedIoButtonInAttachSignedIoPage{
+
+    margin-top: 22%;
+    padding: 10px 21px;
+}
+.widthOfLastUpdateItemInIoAttachSignedIoPage{
+    padding-top: 10px;
+    width: 24%;
+}
+.allVersionsTextInIoAttachSignedPage{
+    font-size: 12px;
+    padding-left: 13%;
+    padding-top: 27px;
+    text-align: center;
+}
+.editTextInIoAttachSignedPage{
+    font-size: 12px;
+    padding-left: 28%;
+    padding-top: 27px;
+    text-align: center;
+}
+@media (max-width: 1400px){
+    .editImagePositionInIoAttachSignedPage{
+        padding-right: 21px;
+        padding-top: 9px;
+    }
+    .allVersionPositionInIoAttachSignedPage{
+        padding-right: 23px;
+        padding-top: 9px;
+    }
+}
+
+@media (min-width: 1400px){
+    .editImagePositionInIoAttachSignedPage{
+        padding-right: 41px;
+        padding-top: 9px;
+    }
+    .allVersionPositionInIoAttachSignedPage{
+        padding-right: 47px;
+        padding-top: 9px;
+    }
+}
+
+.IoTextInIoAttachSignedIoPage{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-left: 1px;
+    margin-top: 0.6px;
+    padding-left: 3%;
+    padding-right: 9%;
+    padding-top: 8px;
+    width: 80%;
+    margin-bottom: 2px;
+}
+.widthOfAllVersionsImgInIoAttachSignedIoPage{
+    background-color: #ffffff;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 56%;
+}
+.widthOfEditImgInIoAttachSignedIoPage{
+    background-color: #ffffff;
+    border-right: 1px solid #eaeaea;
+    height: 97px;
+    margin-top: 0.6px;
+    padding-right: 9%;
+    padding-top: 20px;
+    width: 58%;
+}
+
+
+
+
+
+
+
+
+
+
+
